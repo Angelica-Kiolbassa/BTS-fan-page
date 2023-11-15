@@ -26,7 +26,7 @@ h3 {
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("/pics/BTShearts.png");
-  border-radius: 6px;
+  border-radius: 4px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,8 +37,48 @@ header {
   margin: 0 auto;
 }
 
+#container-info {
+  display: inline;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
 .hero {
   padding-top: 30px;
+}
+
+.info-pic {
+  border-radius: 4px;
+  margin-top: 15px;
+  display: block;
+}
+
+.info-sec-two {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background: #fff;
+  max-width: 1200px;
+  width: 1200px;
+  height: 550px;
+  border-radius: 4px;
+}
+
+.info-h1 {
+  margin: 0 auto;
+  margin-top: -550px;
+  color: #000;
+  font-size: 40px;
+}
+
+#info-btn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 8px;
+  background-color: rgb(194, 117, 235);
+  color: #fff;
 }
 
 #hero-btn {
@@ -54,6 +94,12 @@ header {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 #fff, 0 4px 8px 0 #fff;
   transition: ease-in-out;
+}
+
+.p {
+  max-width: 50%;
+  display: 0 auto;
+  margin-left: 300px;
 }
 
 @media (max-width: 700px) {
@@ -74,7 +120,4 @@ header {
     padding: 5px;
     margin-top: 300px;
   }
-  /* .hero {
-    padding-top: 100px;
-  } */
 }
