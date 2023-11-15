@@ -37,10 +37,20 @@ header {
   margin: 0 auto;
 }
 
+/* .subtext {
+  display: block;
+  margin: 0 auto;
+  margin-top: -550px;
+  padding-top: 100px;
+  color: #000;
+} */
+
 #container-info {
-  display: inline;
+  display: block;
   margin: 0 auto;
   margin-top: 10px;
+  max-width: 1200px;
+  aspect-ratio: 1 / 1;
 }
 
 .hero {
@@ -55,18 +65,19 @@ header {
 
 .info-sec-two {
   margin: 0 auto;
-  display: block;
+  display: inline-flexbox;
   text-align: center;
-  background: #fff;
   max-width: 1200px;
   width: 1200px;
   height: 550px;
   border-radius: 4px;
+  flex-wrap: wrap;
 }
 
-.info-h1 {
+.info-header {
   margin: 0 auto;
   margin-top: -550px;
+  padding-top: 100px;
   color: #000;
   font-size: 40px;
 }
@@ -96,7 +107,14 @@ header {
   transition: ease-in-out;
 }
 
-.p {
+.p-one {
+  max-width: 50%;
+  display: 0 auto;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+.p-two {
   max-width: 50%;
   display: 0 auto;
   margin-left: 300px;
