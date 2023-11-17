@@ -1,5 +1,56 @@
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
 body {
   background: #bdbad4;
+}
+
+footer {
+  color: rgb(212, 174, 233);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/pics/BTSalbums.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/pics/BTShearts.png");
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 700px;
+  max-height: 800px;
+  text-align: center;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+  text-align: start;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-titles {
+  color: rgb(212, 174, 233);
+}
+
+.footer-title-two {
+  font-size: 18px;
+  color: #fff;
 }
 
 .header-two {
@@ -21,36 +72,6 @@ body {
   color: #fff;
   margin-bottom: -45px;
   margin-top: 70px;
-}
-
-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/pics/BTShearts.png");
-  border-radius: 4px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 700px;
-  max-height: 800px;
-  text-align: center;
-  aspect-ratio: 1 / 1;
-  margin: 0 auto;
-}
-
-/* .subtext {
-  display: block;
-  margin: 0 auto;
-  margin-top: -550px;
-  padding-top: 100px;
-  color: #000;
-} */
-
-#container-info {
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-  max-width: 1200px;
-  aspect-ratio: 1 / 1;
 }
 
 .hero {
@@ -82,7 +103,33 @@ header {
   font-size: 40px;
 }
 
-.footer-titles {
+.p-one {
+  max-width: 50%;
+  display: 0 auto;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+.p-two {
+  max-width: 50%;
+  display: 0 auto;
+  margin-left: 300px;
+}
+
+/* .subtext {
+  display: block;
+  margin: 0 auto;
+  margin-top: -550px;
+  padding-top: 100px;
+  color: #000;
+} */
+
+#container-info {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 1200px;
+  aspect-ratio: 1 / 1;
 }
 
 #info-btn {
@@ -108,19 +155,6 @@ header {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 #fff, 0 4px 8px 0 #fff;
   transition: ease-in-out;
-}
-
-.p-one {
-  max-width: 50%;
-  display: 0 auto;
-  margin-left: 300px;
-  margin-top: 100px;
-}
-
-.p-two {
-  max-width: 50%;
-  display: 0 auto;
-  margin-left: 300px;
 }
 
 @media (max-width: 700px) {
