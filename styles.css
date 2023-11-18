@@ -15,7 +15,7 @@ body {
 
 footer {
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("/pics/BTSgroup2.jpeg");
   background-size: cover;
   background-position: center;
@@ -63,6 +63,26 @@ section {
   padding: 50px;
 }
 
+.card {
+  display: block;
+  margin: 0 auto;
+}
+
+.grid-secondary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  justify-content: center;
+}
+
+.footer-link {
+  color: rgb(212, 174, 233);
+}
+
+.footer-link:visited {
+  color: rgb(212, 174, 233);
+}
+
 .footer-p {
   text-align: center;
   max-width: 100%;
@@ -76,6 +96,14 @@ section {
   font-size: 18px;
   color: rgb(212, 174, 233);
   text-align: center;
+}
+
+.grid-secondary {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  justify-content: center;
 }
 
 .grid-footer {
@@ -117,6 +145,13 @@ section {
 
 .hero {
   padding-top: 30px;
+}
+
+.lyrics {
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
 }
 
 .main-subtext {
