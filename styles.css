@@ -66,6 +66,8 @@ section {
 .card {
   display: block;
   margin: 0 auto;
+  font-size: 12px;
+  font-family: roboto;
 }
 
 .card-body {
