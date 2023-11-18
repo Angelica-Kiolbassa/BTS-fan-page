@@ -39,6 +39,7 @@ header {
 li {
   list-style-type: none;
   text-align: start;
+  margin-right: 30px;
 }
 
 main {
@@ -62,17 +63,14 @@ section {
 
 .footer-titles {
   color: rgb(212, 174, 233);
-  text-align: center;
 }
 
 .footer-title-two {
   font-size: 18px;
   color: #fff;
-  text-align: center;
 }
 
 .footer-p {
-  text-align: center;
 }
 
 .grid-footer {
@@ -87,6 +85,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
+  padding: 0;
 }
 
 .header-two {
@@ -167,13 +166,20 @@ section {
   transition: ease-in-out;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 960px) {
   section {
     padding: 30px;
   }
 
-  .grid {
+  .grid-footer {
     grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .grid-main {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+    padding: 20px;
   }
 
   .header-two {
@@ -187,6 +193,10 @@ section {
   .header-one {
     font-size: 10px;
     margin-top: 100px;
+  }
+
+  .main-info {
+    margin: 0;
   }
 
   #hero-btn {
