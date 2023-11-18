@@ -136,9 +136,10 @@ section {
 .main-info {
   display: block;
   margin: 0 auto;
-  margin-left: 50px;
+  /* margin-left: 30px; */
   margin-top: 100px;
   max-width: 1200px;
+  padding: 5px;
 }
 
 #info-btn {
