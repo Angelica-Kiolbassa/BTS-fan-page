@@ -423,6 +423,7 @@ m
   .grid-4 {
       grid-template-columns: 1fr;
       grid-gap: 20px;
+      
   }
 
   .spotify {
