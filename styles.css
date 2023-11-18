@@ -68,11 +68,24 @@ section {
   margin: 0 auto;
 }
 
-.grid-secondary {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 30px;
+.card-body {
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: -20px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.card-btn {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 40px;
   justify-content: center;
+
+  border: 1px solid #fff;
+  padding: 16px 32px;
+  background-color: rgb(194, 117, 235);
+  color: #fff;
 }
 
 .footer-link {
@@ -99,7 +112,7 @@ section {
 }
 
 .grid-secondary {
-  color: #fff;
+  color: #000;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
@@ -214,6 +227,12 @@ section {
   text-align: center;
   color: #fff;
   font-size: 40px;
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 #info-btn {
