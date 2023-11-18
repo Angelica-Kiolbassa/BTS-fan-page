@@ -9,6 +9,8 @@ a:visited {
 
 body {
   background: #bdbad4;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 footer {
@@ -39,18 +41,52 @@ li {
   text-align: start;
 }
 
+main {
+  background-color: #fff;
+}
+
+p {
+  text-align: start;
+  font-family: roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
+  padding: 50px;
 }
 
 .footer-titles {
   color: rgb(212, 174, 233);
+  text-align: center;
 }
 
 .footer-title-two {
   font-size: 18px;
   color: #fff;
+  text-align: center;
+}
+
+.footer-p {
+  text-align: center;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  opacity: 0.6;
+  line-height: 24px;
+  grid-gap: 70px;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
 }
 
 .header-two {
@@ -78,66 +114,40 @@ section {
   padding-top: 30px;
 }
 
-.info-pic {
-  border-radius: 4px;
-  margin-top: 15px;
+.main-subtext {
+  font-size: 13px;
+  color: #462cb2;
+  background-color: rgb(194, 117, 235, 0.3);
+  width: 108px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-left: 5px;
+  margin: 0;
+}
+
+.main-title {
+  font-size: 48px;
+  margin: 0;
+}
+
+.main-info {
   display: block;
-}
-
-.info-sec-two {
   margin: 0 auto;
-  display: inline-flexbox;
-  text-align: center;
-  max-width: 1200px;
-  width: 1200px;
-  height: 550px;
-  border-radius: 4px;
-  flex-wrap: wrap;
-}
-
-.info-header {
-  margin: 0 auto;
-  margin-top: -550px;
-  padding-top: 100px;
-  color: #000;
-  font-size: 40px;
-}
-
-.p-one {
-  max-width: 50%;
-  display: 0 auto;
-  margin-left: 300px;
+  margin-left: 50px;
   margin-top: 100px;
-}
-
-.p-two {
-  max-width: 50%;
-  display: 0 auto;
-  margin-left: 300px;
-}
-
-/* .subtext {
-  display: block;
-  margin: 0 auto;
-  margin-top: -550px;
-  padding-top: 100px;
-  color: #000;
-} */
-
-#container-info {
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
   max-width: 1200px;
-  aspect-ratio: 1 / 1;
 }
 
 #info-btn {
   display: block;
-  margin: 0 auto;
+  margin: 0;
   border-radius: 20px;
   border: 1px solid #fff;
-  padding: 8px;
+  padding: 10px;
   background-color: rgb(194, 117, 235);
   color: #fff;
 }
@@ -158,6 +168,14 @@ section {
 }
 
 @media (max-width: 700px) {
+  section {
+    padding: 30px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
   .header-two {
     font-size: 60px;
   }
