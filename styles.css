@@ -14,9 +14,9 @@ body {
 }
 
 footer {
-  color: rgb(212, 174, 233);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("/pics/BTSalbums.jpeg");
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/pics/BTSgroup2.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@ section {
 
 .footer-title-two {
   font-size: 18px;
-  color: #fff;
+  color: rgb(212, 174, 233);
   text-align: center;
 }
 
@@ -146,6 +146,39 @@ section {
   margin-top: 100px;
   max-width: 1200px;
   padding: 5px;
+}
+
+.secondary {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/pics/btsbomb.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+
+.secondary-subtext {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  width: 90px;
+  background-color: rgb(194, 117, 235, 0.3);
+  padding-left: 5px;
+}
+
+.secondary-info {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
 }
 
 #info-btn {
