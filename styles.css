@@ -70,9 +70,6 @@ section {
   color: #fff;
 }
 
-.footer-p {
-}
-
 .grid-footer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -197,11 +194,19 @@ section {
   }
 
   .main-info {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 350px;
   }
 
   #hero-btn {
     padding: 5px;
     margin-top: 300px;
+  }
+
+  .img-responsive {
+    max-width: 350px;
+    max-height: 250px;
+    margin: 0 auto;
+    display: block;
   }
 }
