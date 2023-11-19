@@ -322,7 +322,6 @@ section {
   max-width: 100%;
   aspect-ratio: 1 / 1;
   margin: 0 auto;
-  display: flexbox;
 }
 
 .secondary-subtext {
@@ -493,9 +492,7 @@ section {
   }
 
   .grid-secondary {
-    grid-template-columns: 1fr;
-    width: 300px;
-    margin: 0 auto;
+    display: none;
   }
 
   .grid-3 {
@@ -524,6 +521,9 @@ section {
     grid-gap: 20px;
   }
 
+  .container-secondary {
+    display: none;
+  }
   .spotify {
     width: 300px;
   }
