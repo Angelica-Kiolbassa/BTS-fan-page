@@ -12,7 +12,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   display: block;
-  justify-content: center;
 }
 
 footer {
@@ -31,8 +30,8 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 700px;
-  max-height: 800px;
+  max-width: 600px;
+  max-height: 700px;
   text-align: center;
   aspect-ratio: 1 / 1;
   margin: 0 auto;
@@ -57,6 +56,7 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  max-width: fit-content;
 }
 
 section {
@@ -312,7 +312,7 @@ section {
   line-height: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-left: 60px;
+  text-align: center;
 }
 
 .secondary {
@@ -461,10 +461,10 @@ section {
     margin-top: 50px;
   }
 
-  .main-info {
+  /* .main-info {
     margin: 0 auto;
     max-width: 350px;
-  }
+  } */
 
   .container-three-title {
     display: flex;
