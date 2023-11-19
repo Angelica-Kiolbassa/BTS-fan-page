@@ -112,6 +112,11 @@ section {
   padding-bottom: 5px;
 }
 
+.container-three-title {
+  display: block;
+  margin: 0 auto;
+}
+
 .lyric-info-section {
   font: 6px;
   font-family: roboto;
@@ -123,9 +128,11 @@ section {
   margin-top: 0;
 }
 
-.final-section {
+.container-final-section {
   display: block;
   margin: 0 auto;
+  background-color: #bdbad4;
+  padding-top: 5px;
 }
 
 .final-title {
