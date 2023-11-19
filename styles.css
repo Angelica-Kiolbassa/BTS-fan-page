@@ -227,6 +227,7 @@ section {
   color: #fff;
   margin-top: 1px;
   padding-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .header-one {
@@ -365,11 +366,12 @@ section {
   background-color: rgb(194, 117, 235);
   color: #fff;
   cursor: pointer;
+  max-width: 100px;
 }
 
 #card-btn:hover {
   cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgb(194, 117, 235), 0 4px 8px 0 rgb(194, 117, 235);
+  box-shadow: 0 2px 2px 0 rgb(194, 117, 235), 0 2px 2px 0 rgb(194, 117, 235);
   transition: ease-in-out;
 }
 
@@ -382,16 +384,17 @@ section {
   background-color: rgb(194, 117, 235);
   color: #fff;
   cursor: pointer;
+  max-width: 100px;
+  text-align: center;
 }
 
 #info-btn:hover {
   cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgb(194, 117, 235), 0 4px 8px 0 rgb(194, 117, 235);
+  box-shadow: 0 2px 2px 0 rgb(194, 117, 235), 0 2px 2px 0 rgb(194, 117, 235);
   transition: ease-in-out;
 }
 
 #hero-btn {
-  margin-top: 250px;
   border-radius: 20px;
   border: 1px solid #fff;
   padding: 8px;
@@ -401,7 +404,7 @@ section {
 
 #hero-btn:hover {
   cursor: pointer;
-  box-shadow: 0 4px 8px 0 #fff, 0 4px 8px 0 #fff;
+  box-shadow: 0 2px 2px 0 #fff, 0 4px 8px 0 #fff;
   transition: ease-in-out;
 }
 
