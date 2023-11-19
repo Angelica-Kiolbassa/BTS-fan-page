@@ -37,14 +37,6 @@ header {
   margin: 0 auto;
 }
 
-ul {
-  list-style-type: none;
-  text-align: start;
-  list-style-position: inside;
-  margin: 0;
-  padding: 0;
-}
-
 main {
   background-color: #fff;
 }
@@ -57,12 +49,21 @@ p {
   font-weight: 400;
   line-height: normal;
   max-width: fit-content;
+  display: flex;
 }
 
 section {
   max-width: 1400px;
   margin: 0 auto;
   padding: 50px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: start;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
 }
 
 .card {
@@ -109,12 +110,6 @@ section {
 }
 
 .card-info-section {
-  font: 6px;
-  font-family: roboto;
-  padding-bottom: 5px;
-}
-
-.release-date {
   font: 6px;
   font-family: roboto;
   padding-bottom: 5px;
@@ -201,14 +196,12 @@ section {
 }
 
 .grid-3 {
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 20px;
 }
 
 .grid-4 {
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 20px;
@@ -315,6 +308,12 @@ section {
   text-align: center;
 }
 
+.release-date {
+  font: 6px;
+  font-family: roboto;
+  padding-bottom: 5px;
+}
+
 .secondary {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/pics/btsbomb.webp");
@@ -390,6 +389,20 @@ section {
   transition: ease-in-out;
 }
 
+#hero-btn {
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 8px;
+  background-color: rgb(194, 117, 235);
+  color: #fff;
+}
+
+#hero-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 #fff, 0 4px 8px 0 #fff;
+  transition: ease-in-out;
+}
+
 #info-btn {
   display: block;
   margin: 0;
@@ -409,28 +422,38 @@ section {
   transition: ease-in-out;
 }
 
-#hero-btn {
-  border-radius: 20px;
-  border: 1px solid #fff;
-  padding: 8px;
-  background-color: rgb(194, 117, 235);
-  color: #fff;
-}
-
-#hero-btn:hover {
-  cursor: pointer;
-  box-shadow: 0 2px 2px 0 #fff, 0 4px 8px 0 #fff;
-  transition: ease-in-out;
-}
-
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
   section {
     padding: 30px;
+  }
+
+  .card-info-section {
+    display: none;
+  }
+
+  .container-final-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .container-secondary {
+    display: none;
+  }
+
+  .container-three-title {
+    display: none;
   }
 
   .footer-p {
     padding: 0;
     text-align: start;
+  }
+
+  .final-grid {
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
   }
 
   .footer-title-two {
@@ -446,50 +469,6 @@ section {
     grid-template-columns: 1fr;
     grid-gap: 32px;
     padding: 20px;
-  }
-
-  .header-two {
-    font-size: 60px;
-  }
-
-  .header-three {
-    font-size: 15px;
-  }
-
-  .header-one {
-    font-size: 10px;
-    margin-top: 50px;
-  }
-
-  /* .main-info {
-    margin: 0 auto;
-    max-width: 350px;
-  } */
-
-  .container-three-title {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .card-info-section {
-    display: none;
-  }
-
-  #hero-btn {
-    padding: 5px;
-    margin-top: 300px;
-  }
-
-  .img-responsive {
-    max-width: 350px;
-    max-height: 300px;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .last-section-grid {
-    margin: 0 auto;
-    display: block;
   }
 
   .grid-secondary {
@@ -508,27 +487,47 @@ section {
     grid-gap: 20px;
   }
 
-  .container-final-section {
-    display: flex;
-    flex-direction: column;
+  .header-two {
+    font-size: 60px;
+  }
+
+  .header-three {
+    font-size: 15px;
+  }
+
+  .header-one {
+    font-size: 10px;
+    margin-top: 50px;
+  }
+
+  .img-responsive {
+    max-width: 350px;
+    max-height: 300px;
     margin: 0 auto;
+    display: block;
   }
 
-  .final-grid {
+  .last-section-grid {
     margin: 0 auto;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+    display: block;
   }
 
-  .container-secondary {
-    display: none;
+  .main-info {
+    margin: 0 auto;
+    max-width: 350px;
   }
 
-  .container-three-title {
-    display: none;
+  .photos {
+    width: 100px;
+    height: 200px;
   }
 
   .spotify {
     width: 300px;
+  }
+
+  #hero-btn {
+    padding: 5px;
+    margin-top: 300px;
   }
 }
