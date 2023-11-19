@@ -112,6 +112,12 @@ section {
   padding-bottom: 5px;
 }
 
+.lyric-info-section {
+  font: 6px;
+  font-family: roboto;
+  padding-bottom: 5px;
+}
+
 .card-title-bottom-section {
   color: rgb(194, 117, 235);
   margin-top: 0;
