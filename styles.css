@@ -498,6 +498,11 @@ section {
     grid-gap: 20px;
   }
 
+  .container-final-section {
+    display: flex;
+    flex-direction: column;
+  }
+
   .spotify {
     width: 300px;
   }
