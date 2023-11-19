@@ -147,11 +147,9 @@ section {
   letter-spacing: 5px;
   text-transform: uppercase;
   padding-left: 5px;
-  display: flex;
 }
 
 .final-info-title {
-  display: flex;
   text-align: center;
   color: #000;
   font-size: 40px;
@@ -351,7 +349,6 @@ section {
   background-color: rgb(194, 117, 235, 0.3);
   padding-left: 5px;
   margin-top: 10px;
-  display: flex;
 }
 
 .secondary-info {
@@ -478,9 +475,7 @@ section {
   }
 
   .last-section-grid {
-    margin: 0 auto;
-    display: block;
-    padding-left: 75px;
+    display: none;
   }
 
   .grid-secondary {
@@ -496,16 +491,12 @@ section {
   }
 
   .container-final-section {
-    display: flex;
-    margin: 0 auto;
+    display: none;
   }
 
-  .final-grid {
-    margin: 0 auto;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+  .mores-songs-section {
+    display: none;
   }
-
   .spotify {
     width: 300px;
   }
