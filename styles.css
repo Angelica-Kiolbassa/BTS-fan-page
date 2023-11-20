@@ -176,6 +176,8 @@ ul {
 .footer-p {
   text-align: center;
   max-width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .footer-titles {
@@ -422,6 +424,15 @@ ul {
   transition: ease-in-out;
 }
 
+@media (min-width: 1200px) {
+  .photos {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 300px;
+  }
+}
+
 @media (max-width: 1024px) {
   section {
     padding: 30px;
@@ -448,6 +459,9 @@ ul {
   .footer-p {
     padding: 0;
     text-align: start;
+    max-width: 400px;
+    display: block;
+    margin: 0;
   }
 
   .final-grid {
@@ -518,8 +532,10 @@ ul {
   }
 
   .photos {
-    width: 100px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 300px;
   }
 
   .spotify {
